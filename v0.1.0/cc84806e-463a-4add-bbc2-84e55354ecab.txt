@@ -1,2 +1,6 @@
 YC runtime plan
 -----
+- Run .yca files as an exe:
+  *.yca example is in other file*
+- Have error popups
+  *error example in other file*
