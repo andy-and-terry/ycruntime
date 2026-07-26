@@ -1,0 +1,19 @@
+{
+  {
+    appname="example",
+    config="config.json"
+    bypassCORS="true"
+  },
+  {
+    "
+      <!DOCTYPE HTML>
+      <head>
+        <meta charset="UTF-8">
+        <title>Example</title>
+      </head>
+      <body>
+        <h1>Example</h1>
+      </body>
+    "
+  }
+}
