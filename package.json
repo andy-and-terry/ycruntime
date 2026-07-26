@@ -1,0 +1,20 @@
+{
+  "name": "ycruntime",
+  "version": "0.1.0",
+  "description": "Runtime/interpreter for the .yca file format",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "yc": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli/index.ts",
+    "test": "node --test --import tsx dist/test/**/*.test.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.0"
+  }
+}
